@@ -1,0 +1,62 @@
+:host {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 1023px) {
+    flex-direction: row;
+    justify-content: stretch;
+  }
+}
+
+.banner {
+  height: 12rem;
+  background: repeating-linear-gradient(45deg, #52d5d0, #52d5d0 12.5rem, #08c2bc 0, #08c2bc 66.7vw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 1023px) {
+    min-width: 37%;
+    height: auto;
+    background: url("/assets/images/auth-sidebar.svg") no-repeat;
+    background-size: cover;
+    padding-top: 8.4rem;
+    align-items: flex-start;
+    position: relative;
+  }
+
+
+  & .logo {
+    @media screen and (min-width: 1024px) {
+      width: 33rem;
+    }
+  }
+
+  & .text {
+    display: none;
+
+    @media screen and (min-width: 1024px) {
+      width: 33rem;
+      font-size: 6.4rem;
+      line-height: 9.6rem;
+      font-family: var(--noto-sans-tc);
+      font-weight: 400;
+      color: var(--white);
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  }
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

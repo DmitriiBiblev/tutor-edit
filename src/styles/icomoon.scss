@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('/assets/icomoon/icomoon.eot?t2r2ga');
+  src: url('/assets/icomoon/icomoon.eot?t2r2ga#iefix') format('embedded-opentype'),
+  url('/assets/icomoon/icomoon.ttf?t2r2ga') format('truetype'),
+  url('/assets/icomoon/icomoon.woff?t2r2ga') format('woff'),
+  url('/assets/icomoon/icomoon.svg?t2r2ga#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backup:before {
+  content: "\e918";
+}
+
+.icon-success:before {
+  content: "\e912";
+}
+
+.icon-double-done:before {
+  content: "\e911";
+}
+
+.icon-check:before {
+  content: "\e910";
+}
+
+.icon-back:before {
+  content: "\e900";
+}
+
+.icon-calendar:before {
+  content: "\e901";
+}
+
+.icon-chat:before {
+  content: "\e902";
+}
+
+.icon-close:before {
+  content: "\e903";
+}
+
+.icon-delete:before {
+  content: "\e904";
+}
+
+.icon-done:before {
+  content: "\e905";
+}
+
+.icon-download:before {
+  content: "\e906";
+}
+
+.icon-dropdown:before {
+  content: "\e907";
+}
+
+.icon-edit:before {
+  content: "\e908";
+}
+
+.icon-eye-big:before {
+  content: "\e909";
+}
+
+.icon-eye-off:before {
+  content: "\e90a";
+}
+
+.icon-eye-on:before {
+  content: "\e90b";
+}
+
+.icon-format-text:before {
+  content: "\e90c";
+}
+
+.icon-help:before {
+  content: "\e90d";
+}
+
+.icon-logout:before {
+  content: "\e90e";
+}
+
+.icon-move:before {
+  content: "\e90f";
+}
+
+.icon-notification:before {
+  content: "\e913";
+}
+
+.icon-plus-big:before {
+  content: "\e914";
+}
+
+.icon-plus-small:before {
+  content: "\e915";
+}
+
+.icon-settings:before {
+  content: "\e916";
+}
+
+.icon-tutor:before {
+  content: "\e917";
+}
